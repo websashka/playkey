@@ -1,0 +1,14 @@
+{
+  "name": "Playkey Ubuntu",
+  "author": "Dev&Travel",
+  "description": "Run PlayKey cloud gaming on ubuntu",
+  "version": "1",
+  "manifest_version": 2,
+  "content_scripts": [{
+    "run_at": "document_start",
+    "js": ["content.js"],
+    "matches": [
+      "https://playkey.net/*"
+    ]
+  }]
+}

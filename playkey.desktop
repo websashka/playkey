@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/alexander/playkey/run.sh %U
+Terminal=false
+MimeType=x-scheme-handler/playkey
+Name=playkey
