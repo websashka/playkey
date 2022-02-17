@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Exec=/home/alexander/playkey/run.sh %U
+Exec=bash -c  "$HOME/playkey/bin/playkey %U"
 Terminal=false
 MimeType=x-scheme-handler/playkey
 Name=playkey
