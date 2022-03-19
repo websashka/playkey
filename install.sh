@@ -1,8 +1,9 @@
 #!/bin/bash
 
 echo "Install...";
+echo "Copy script...";
 cp -r ./bin ~/playkey/;
+echo "Copy desktop entry...";
 cp playkey.desktop ~/.local/share/applications/;
-PATH=$PATH:~/playkey/bin;
 xdg-mime default playkey.desktop x-scheme-handler/playkey;
 echo "Done.";
