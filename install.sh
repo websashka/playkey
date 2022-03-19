@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "Install...";
+sudo apt -y install wine;
 echo "Copy script...";
 cp -r ./bin ~/playkey/;
 echo "Copy desktop entry...";
