@@ -1,5 +1,7 @@
 # Playkey Ubuntu Extension
 
+[![PREVIEW](https://img.youtube.com/vi/yt1FJh-ssSM/default.jpg)](https://www.youtube.com/watch?v=yt1FJh-ssSM)
+
 Это расширение для google chrome позволяет запускать клиент облачного гейминга PLAYKEY.NET на системах UBUNTU
 
 ## Intro
